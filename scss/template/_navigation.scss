@@ -1,0 +1,104 @@
+.navbar {
+    background: $primary-bg;
+
+    .nav-link {
+        padding-right: 0rem !important;
+        padding-left: 0rem !important;
+    }
+
+    ul {
+        li {
+            a {
+                font-family: 'Quicksand', sans-serif;
+                font-weight: 400;
+                font-size: 15px;
+                display: inline-block;
+                margin: 20px 20px;
+                color: $text-color !important;
+            }
+        }
+    }
+
+    form {
+        button {
+            padding: 10px 30px;
+        }
+    }
+
+    .loge-in {
+        i {
+            margin-left: 6px;
+            font-size: 14px;
+            color: $border-color;
+        }
+    }
+
+    .sing-out {
+        border: 1px solid $border-color;
+    }
+
+    .btn-check:focus+.btn,
+    .btn:focus {
+        outline: 0;
+        box-shadow: none;
+    }
+}
+
+@include mobile {
+      .navbar{
+        text-align: center;
+        padding: 20px;
+        ul{
+            li{
+                a{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    form{
+     justify-content: center;
+     align-items: center;
+    }
+}
+@include tablet {
+      .navbar{
+        text-align: center;
+        padding: 20px;
+
+        ul{
+            li{
+                a{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    form{
+     justify-content: center;
+     align-items: center;
+    }
+}
+@include desktop {
+      .navbar{
+        text-align: center;
+        padding: 20px;
+
+        ul{
+            li{
+                a{
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+    form{
+     justify-content: center;
+     align-items: center;
+    }
+}
+@include desktop-lg{
+    .navbar form button {
+        padding: 10px 25px;
+    }
+}
