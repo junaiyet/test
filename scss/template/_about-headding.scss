@@ -1,7 +1,68 @@
-.about-headding{
-    background-image: url(/images/about-hedding.png) center no-repeat;
+.about-headding {
+    background: url(/images/about-hedding.png) center no-repeat;
     background-size: cover;
     padding-top: 137px;
     padding-bottom: 153px;
-    text-align: center;
+    text-align: center !important;
+}
+
+.breadcrumb {
+    .breadcrumb-item {
+        font-weight: 700;
+
+        a {
+            color: $text-color;
+            font-size: 16px;
+        }
+
+        .active {
+            color: $primary-color;
+        }
+    }
+}
+
+// ////////////
+.mission-img {
+    background: red;
+    position: relative;
+    z-index: 100;
+
+    .img {
+        margin-left: -50px;
+        margin-top: -50px;
+    }
+
+    .radious {
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background: red;
+        left: -70px;
+        top: -60px;
+        z-index: -1;
+    }
+}
+
+.shadow {
+    padding: 30px 25px !important;
+}
+
+.counter-item {
+    border-right: 2px solid $primary-bg;
+
+    h6 {
+        color: $primary-color;
+    }
+
+    &:last-child {
+        border: none;
+    }
+
+    &:nth-child(2) h6 {
+        color: #FFBB33;
+    }
+
+    &:nth-child(3) h6 {
+        color: #1E858B;
+    }
 }

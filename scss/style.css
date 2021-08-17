@@ -1,54 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 * {
   margin: 0;
   padding: 0; }
 
-ol, ul {
-  list-style: none; }
+ol,
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
 
-a {
+a,
+a:hover,
+a:focus {
   text-decoration: none; }
 
-.navbar {
-  background: #F6F6F6; }
-  .navbar .nav-link {
+a,
+button {
+  cursor: pointer;
+  transition: .3s ease; }
+  a:focus,
+  button:focus {
+    outline: 0; }
+
+section {
+  margin-bottom: 120px; }
+
+body {
+  line-height: 1.7;
+  font-family: "Quicksand", sans-serif;
+  font-size: 15px;
+  overflow-x: hidden;
+  color: #222222; }
+
+p,
+.paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  font-family: "Quicksand", sans-serif; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0; }
+
+h1,
+.h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px; }
+
+h2,
+.h2 {
+  font-size: 36px;
+  line-height: 46px; }
+
+h3,
+.h3 {
+  font-size: 23px;
+  line-height: 34px;
+  font-weight: 400; }
+
+h4,
+.h4 {
+  font-size: 20px;
+  font-weight: 700; }
+
+h5,
+.h5 {
+  font-size: 18px;
+  font-weight: 700; }
+
+h6,
+.h6 {
+  font-size: 16px;
+  font-weight: 700; }
+
+.navigation {
+  background: #F6F6F6;
+  position: fixed;
+  width: 100%;
+  z-index: 9999; }
+  .navigation .nav-link {
     padding-right: 0rem !important;
     padding-left: 0rem !important; }
-  .navbar ul li a {
-    font-family: 'Quicksand', sans-serif;
-    font-weight: 400;
+  .navigation ul li a {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 600;
     font-size: 15px;
     display: inline-block;
     margin: 20px 20px;
     color: #222222 !important; }
-  .navbar form button {
-    padding: 10px 30px; }
-  .navbar .loge-in i {
+  .navigation .btn {
+    line-height: 0; }
+  .navigation form button {
+    padding-top: 13px;
+    padding-bottom: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #222222 !important;
+    font-weight: 600;
+    font-size: 15px; }
+  .navigation .loge-in i {
     margin-left: 6px;
     font-size: 14px;
     color: #FF3131; }
-  .navbar .sing-out {
+  .navigation .sing-out {
     border: 1px solid #FF3131; }
-  .navbar .btn-check:focus + .btn,
-  .navbar .btn:focus {
+  .navigation .btn-check:focus + .btn,
+  .navigation .btn:focus {
     outline: 0;
     box-shadow: none; }
 
 @media (max-width: 575.98px) {
-  .navbar {
+  .navigation {
     text-align: center;
     padding: 20px; }
-    .navbar ul li a {
-      margin-bottom: 0; }
+    .navigation ul {
+      height: 50vh;
+      overflow: auto; }
+      .navigation ul li a {
+        margin-bottom: 0; }
 
   form {
     justify-content: center;
     align-items: center; } }
 @media (min-width: 576px) and (max-width: 768px) {
-  .navbar {
+  .navigation {
     text-align: center;
     padding: 20px; }
-    .navbar ul li a {
-      margin-bottom: 0; }
+    .navigation ul {
+      height: 50vh;
+      overflow: auto; }
+      .navigation ul li a {
+        margin-bottom: 0; }
 
   form {
     justify-content: center;
@@ -57,8 +146,11 @@ a {
   .navbar {
     text-align: center;
     padding: 20px; }
-    .navbar ul li a {
-      margin-bottom: 0; }
+    .navbar ul {
+      height: 50vh;
+      overflow: auto; }
+      .navbar ul li a {
+        margin-bottom: 0; }
 
   form {
     justify-content: center;
@@ -67,10 +159,48 @@ a {
   .navbar form button {
     padding: 10px 25px; } }
 .about-headding {
-  background-image: url(/images/about-hedding.png) center no-repeat;
+  background: url(/images/about-hedding.png) center no-repeat;
   background-size: cover;
   padding-top: 137px;
   padding-bottom: 153px;
-  text-align: center; }
+  text-align: center !important; }
+
+.breadcrumb .breadcrumb-item {
+  font-weight: 700; }
+  .breadcrumb .breadcrumb-item a {
+    color: #222222;
+    font-size: 16px; }
+  .breadcrumb .breadcrumb-item .active {
+    color: #FF3131; }
+
+.mission-img {
+  background: red;
+  position: relative;
+  z-index: 100; }
+  .mission-img .img {
+    margin-left: -50px;
+    margin-top: -50px; }
+  .mission-img .radious {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: red;
+    left: -70px;
+    top: -60px;
+    z-index: -1; }
+
+.shadow {
+  padding: 30px 25px !important; }
+
+.counter-item {
+  border-right: 2px solid #F6F6F6; }
+  .counter-item h6 {
+    color: #FF3131; }
+  .counter-item:last-child {
+    border: none; }
+  .counter-item:nth-child(2) h6 {
+    color: #FFBB33; }
+  .counter-item:nth-child(3) h6 {
+    color: #1E858B; }
 
 /*# sourceMappingURL=style.css.map */
