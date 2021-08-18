@@ -21,17 +21,20 @@
         }
     }
 }
-@include mobile{
+
+@include mobile {
     .about-headding {
         padding-top: 130px;
         padding-bottom: 100px;
     }
 }
+
 // ////////////
-.Our-mission{
-    margin-bottom:40px !important ;
-    padding-top:20px
+.Our-mission {
+    margin-bottom: 40px !important;
+    padding-top: 20px
 }
+
 .list {
     li {
         margin-bottom: 15px;
@@ -130,14 +133,15 @@
     }
 
 }
- 
-@include desktop-lg{
-   .list{
-     li{
-         font-size: 14px;
-     }
-   }
+
+@include desktop-lg {
+    .list {
+        li {
+            font-size: 14px;
+        }
+    }
 }
+
 // /////
 .shadow {
     padding: 30px 25px !important;
@@ -160,5 +164,178 @@
 
     &:nth-child(3) h6 {
         color: $tertiary-color;
+    }
+}
+
+// /////////////
+.what-are {
+    padding: 130px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    position: relative;
+
+    .primary-radious-small {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: $secondery-color;
+        opacity: 0.5;
+        left: -100px;
+        top: 100px;
+        z-index: -1;
+    }
+
+    .tertiary-radious-small {
+        position: absolute;
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: $tertiary-color;
+        opacity: 0.5;
+        left: -100px;
+        bottom: 100px;
+    }
+}
+
+.what-are-img {
+    background-color: #E0E0E0;
+
+    position: relative;
+    z-index: 100;
+
+    .img {
+        margin-left: 40px;
+        margin-top: -40px;
+        padding-bottom: 40px;
+
+    }
+
+    .primary-radious {
+        position: absolute;
+        width: 73px;
+        height: 73px;
+        border-radius: 50%;
+        background: $secondery-color;
+        opacity: 0.5;
+        right: -70px;
+        top: -70px;
+        z-index: -1;
+    }
+
+    .secondery-radious {
+        position: absolute;
+        width: 81px;
+        height: 81px;
+        border-radius: 50%;
+        background: $primary-color;
+        opacity: 0.5;
+        left: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .tertiary-radious {
+        position: absolute;
+        width: 105px;
+        height: 105px;
+        border-radius: 50%;
+        background: $tertiary-color;
+        opacity: 0.5;
+        right: -80px;
+        bottom: 10px;
+    }
+
+}
+
+.what-are-text {
+    position: relative;
+
+    .primary-radious {
+        position: absolute;
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background: $primary-color;
+        opacity: 0.5;
+        right: -90px;
+        top: -100px;
+    }
+
+    .secondery-radious {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        background: $secondery-color;
+        opacity: 0.5;
+        right: -120px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .tertiary-radious {
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        background: $tertiary-color;
+        opacity: 0.5;
+        right: 100px;
+        bottom: -80px;
+    }
+}
+
+@include mobile{
+
+    .what-are-img {    
+        position: relative;
+        z-index: 100;
+    
+        .img {
+            margin-left: 10px;
+            margin-top: -10px;
+            padding-bottom: 10px;
+    
+        }
+    
+        .primary-radious {
+            right: 0;
+            top: -40px;
+                }
+    
+        .secondery-radious {
+            width: 60px;
+            height: 60px;
+        }
+    
+        .tertiary-radious {
+            width: 70px;
+            height: 70px;
+            right: -9px;
+            bottom: -25px;
+        }
+    
+    }
+    
+    .what-are-text {
+        position: relative;
+    
+        .primary-radious {
+            right: 0;
+    top: 30px;
+        }
+    
+        .secondery-radious {
+            right: 0;
+            top: 69%;
+        }
+    
+        .tertiary-radious {
+    //   display: none;
+        }
     }
 }
