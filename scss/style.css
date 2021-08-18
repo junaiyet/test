@@ -130,10 +130,10 @@ h6,
     margin-left: 6px;
     font-size: 14px;
     color: #FF3131; }
-  .navigation .sign-in {
+  .navigation .sign-up {
     border: 1px solid #FF3131;
     transition: .4s; }
-    .navigation .sign-in:hover {
+    .navigation .sign-up:hover {
       background: #FF3131;
       color: #fff !important; }
   .navigation .btn-check:focus + .btn,
