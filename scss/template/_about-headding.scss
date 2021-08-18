@@ -334,8 +334,152 @@
             top: 69%;
         }
     
-        .tertiary-radious {
-    //   display: none;
+   
+    }
+}
+@include tablet{
+
+    .what-are-img {    
+        position: relative;
+        z-index: 100;
+    
+        .img {
+            margin-left: 30px;
+            margin-top: -30px;
+            padding-bottom: 30px;
         }
+    
+        .primary-radious {
+            right: 0;
+            top: -40px;
+                }
+    
+        .secondery-radious {
+            width: 60px;
+            height: 60px;
+        }
+    
+        .tertiary-radious {
+            width: 70px;
+            height: 70px;
+            right: -9px;
+            bottom: -25px;
+        }
+    
+    }
+    
+    .what-are-text {
+        position: relative;
+    
+        .primary-radious {
+            right: 0;
+    top: 30px;
+        }
+    
+        .secondery-radious {
+            right: 0;
+            top: 69%;
+        }
+    
+        .tertiary-radious {
+            right: 150px;
+            bottom: -50px;
+        }
+    }
+}
+@include desktop{
+
+    .what-are-img {    
+        position: relative;
+        z-index: 100;
+    
+        .img {
+            margin-left: 10px;
+            margin-top: -10px;
+            padding-bottom: 10px;
+        }
+    
+        .primary-radious {
+            right: -40px;
+            top: -40px;
+                }
+    
+        .secondery-radious {
+            width: 60px;
+            height: 60px;
+        }
+    
+        .tertiary-radious {
+            width: 70px;
+            height: 70px;
+            right: -9px;
+            bottom: -25px;
+        }
+    
+    }
+    
+    .what-are-text {
+        position: relative;
+    
+        .primary-radious {
+            right: 0;
+    top: 30px;
+        }
+    
+        .secondery-radious {
+            right: 0;
+            top: 69%;
+        }
+    
+        .tertiary-radious {
+            right: 150px;
+            bottom: -50px;
+        }
+    }
+}
+@include desktop-lg{
+
+    .what-are-img {    
+        position: relative;
+        z-index: 100;
+    
+        .img {
+            margin-left: 30px;
+            margin-top: -30px;
+            padding-bottom: 30px;
+        }
+    
+        .primary-radious {
+            right: 0;
+            top: -40px;
+                }
+    
+        .secondery-radious {
+            width: 60px;
+            height: 60px;
+        }
+    
+        .tertiary-radious {
+            width: 70px;
+            height: 70px;
+            right: -9px;
+            bottom: -25px;
+        }
+    
+    }
+    
+    .what-are-text {
+        position: relative;
+    
+        .primary-radious {
+            right: 0;
+    top: 30px;
+        }
+    
+        .secondery-radious {
+            right: 0;
+            top: 69%;
+        }
+    
     }
 }

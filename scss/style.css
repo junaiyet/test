@@ -182,7 +182,7 @@ h6,
     align-items: center; } }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .navbar form button {
-    padding: 10px 25px; } }
+    padding: 10px 24px; } }
 .about-headding {
   background-position: center;
   background-repeat: no-repeat;
@@ -392,6 +392,96 @@ h6,
       margin-left: 10px;
       margin-top: -10px;
       padding-bottom: 10px; }
+    .what-are-img .primary-radious {
+      right: 0;
+      top: -40px; }
+    .what-are-img .secondery-radious {
+      width: 60px;
+      height: 60px; }
+    .what-are-img .tertiary-radious {
+      width: 70px;
+      height: 70px;
+      right: -9px;
+      bottom: -25px; }
+
+  .what-are-text {
+    position: relative; }
+    .what-are-text .primary-radious {
+      right: 0;
+      top: 30px; }
+    .what-are-text .secondery-radious {
+      right: 0;
+      top: 69%; } }
+@media (min-width: 576px) and (max-width: 768px) {
+  .what-are-img {
+    position: relative;
+    z-index: 100; }
+    .what-are-img .img {
+      margin-left: 30px;
+      margin-top: -30px;
+      padding-bottom: 30px; }
+    .what-are-img .primary-radious {
+      right: 0;
+      top: -40px; }
+    .what-are-img .secondery-radious {
+      width: 60px;
+      height: 60px; }
+    .what-are-img .tertiary-radious {
+      width: 70px;
+      height: 70px;
+      right: -9px;
+      bottom: -25px; }
+
+  .what-are-text {
+    position: relative; }
+    .what-are-text .primary-radious {
+      right: 0;
+      top: 30px; }
+    .what-are-text .secondery-radious {
+      right: 0;
+      top: 69%; }
+    .what-are-text .tertiary-radious {
+      right: 150px;
+      bottom: -50px; } }
+@media (min-width: 769px) and (max-width: 991.98px) {
+  .what-are-img {
+    position: relative;
+    z-index: 100; }
+    .what-are-img .img {
+      margin-left: 10px;
+      margin-top: -10px;
+      padding-bottom: 10px; }
+    .what-are-img .primary-radious {
+      right: -40px;
+      top: -40px; }
+    .what-are-img .secondery-radious {
+      width: 60px;
+      height: 60px; }
+    .what-are-img .tertiary-radious {
+      width: 70px;
+      height: 70px;
+      right: -9px;
+      bottom: -25px; }
+
+  .what-are-text {
+    position: relative; }
+    .what-are-text .primary-radious {
+      right: 0;
+      top: 30px; }
+    .what-are-text .secondery-radious {
+      right: 0;
+      top: 69%; }
+    .what-are-text .tertiary-radious {
+      right: 150px;
+      bottom: -50px; } }
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .what-are-img {
+    position: relative;
+    z-index: 100; }
+    .what-are-img .img {
+      margin-left: 30px;
+      margin-top: -30px;
+      padding-bottom: 30px; }
     .what-are-img .primary-radious {
       right: 0;
       top: -40px; }
