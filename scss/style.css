@@ -288,13 +288,14 @@ h6,
     color: #1e868b; }
 
 .what-are {
-  background-image: url(/images/about.png);
+  background-color: #F6F6F6;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 180px;
-  padding-bottom: 130px;
-  position: relative; }
+  padding-top: 130px;
+  padding-bottom: 60px;
+  position: relative;
+  margin-bottom: 0 !important; }
   .what-are .primary-radious-small {
     position: absolute;
     width: 24px;
