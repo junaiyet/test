@@ -274,7 +274,9 @@ h6,
   .list li {
     font-size: 14px; } }
 .shadow {
-  padding: 30px 25px !important; }
+  padding: 30px 25px !important;
+  box-shadow: 0px 25px 65px rgba(0, 0, 0, 0.05);
+  border-radius: 6px; }
 
 .counter-item {
   border-right: 1px solid #F6F6F6; }
