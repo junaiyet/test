@@ -21,7 +21,12 @@
         }
     }
 }
-
+@include mobile{
+    .about-headding {
+        padding-top: 130px;
+        padding-bottom: 100px;
+    }
+}
 // ////////////
 .Our-mission{
     margin-bottom:40px !important ;

@@ -95,6 +95,9 @@ h6,
   font-size: 16px;
   font-weight: 700; }
 
+.fixd-manu ul li a {
+  margin: 10px 20px !important; }
+
 .navigation {
   background: #F6F6F6;
   position: fixed;
@@ -109,7 +112,10 @@ h6,
     font-size: 15px;
     display: inline-block;
     margin: 20px 20px;
-    color: #222222 !important; }
+    color: #222222 !important;
+    transition: .4s; }
+    .navigation ul li a:hover {
+      color: #FF3131 !important; }
   .navigation .btn {
     line-height: 0; }
   .navigation form button {
@@ -120,12 +126,15 @@ h6,
     color: #222222 !important;
     font-weight: 600;
     font-size: 15px; }
-  .navigation .loge-in i {
+  .navigation .log-in i {
     margin-left: 6px;
     font-size: 14px;
     color: #FF3131; }
-  .navigation .sing-out {
-    border: 1px solid #FF3131; }
+  .navigation .sing-in {
+    border: 1px solid #FF3131;
+    transition: .4s; }
+    .navigation .sing-in:hover {
+      background: #FF3131; }
   .navigation .btn-check:focus + .btn,
   .navigation .btn:focus {
     outline: 0;
@@ -189,6 +198,10 @@ h6,
   .breadcrumb .breadcrumb-item .active {
     color: #FF3131; }
 
+@media (max-width: 575.98px) {
+  .about-headding {
+    padding-top: 130px;
+    padding-bottom: 100px; } }
 .Our-mission {
   margin-bottom: 40px !important;
   padding-top: 20px; }
