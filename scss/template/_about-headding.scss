@@ -22,33 +22,119 @@
 }
 
 // ////////////
+.list {
+    li {
+        margin-bottom: 15px;
+
+        i {
+            color: $primary-color;
+            margin-right: 10px;
+        }
+    }
+}
+
 .mission-img {
-    background: red;
+    background: $primary-bg;
     position: relative;
     z-index: 100;
 
     .img {
-        margin-left: -50px;
-        margin-top: -50px;
+        margin-left: -40px;
+        margin-top: -40px;
+        padding-bottom: 40px;
+
     }
 
-    .radious {
+    .primary-radious {
         position: absolute;
-        width: 50px;
-        height: 50px;
-        background: red;
+        width: 73px;
+        height: 73px;
+        border-radius: 50%;
+        background: $secondery-color;
+        opacity: 0.5;
         left: -70px;
-        top: -60px;
+        top: -70px;
         z-index: -1;
+    }
+
+    .secondery-radious {
+        position: absolute;
+        width: 81px;
+        height: 81px;
+        border-radius: 50%;
+        background: $primary-color;
+        opacity: 0.5;
+        right: 0px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .tertiary-radious {
+        position: absolute;
+        width: 105px;
+        height: 105px;
+        border-radius: 50%;
+        background: $tertiary-color;
+        opacity: 0.5;
+        left: -85px;
+        bottom: 0px;
     }
 }
 
+
+@include mobile {
+
+
+    .mission-img {
+
+        .img {
+            margin-left: -10px;
+            margin-top: -10px;
+            padding-bottom: 10px;
+
+        }
+
+        .primary-radious {
+            width: 35px;
+            height: 35px;
+            left: -10px;
+            top: -25px;
+            z-index: 0;
+        }
+
+        .secondery-radious {
+            width: 40px;
+            height: 40px;
+
+        }
+
+        .tertiary-radious {
+
+            width: 50px;
+            height: 50px;
+
+            left: -10px;
+            bottom: -10px;
+        }
+
+    }
+
+}
+ 
+@include desktop-lg{
+   .list{
+     li{
+         font-size: 14px;
+     }
+   }
+}
+// /////
 .shadow {
     padding: 30px 25px !important;
 }
 
 .counter-item {
-    border-right: 2px solid $primary-bg;
+    border-right: 1px solid $primary-bg;
 
     h6 {
         color: $primary-color;
@@ -59,10 +145,10 @@
     }
 
     &:nth-child(2) h6 {
-        color: #FFBB33;
+        color: $secondery-color;
     }
 
     &:nth-child(3) h6 {
-        color: #1E858B;
+        color: $tertiary-color;
     }
 }

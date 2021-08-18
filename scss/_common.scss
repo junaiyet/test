@@ -33,3 +33,13 @@ button {
 section{
     margin-bottom:120px ;
 }
+@include mobile{
+    section{
+        margin-bottom:60px ;
+    }
+}
+@include tablet{
+    section{
+        margin-bottom:100px ;
+    }
+}

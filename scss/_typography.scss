@@ -13,7 +13,7 @@ p,
 .paragraph {
     font-weight: 400;
     font-size: 14px;
-    line-height: 1.7;
+    line-height: 1.9;
     font-family: $primary-font;
 
 }
@@ -46,7 +46,20 @@ h2,
     line-height: 46px;
 
 }
+@include mobile{
+    h2,
+.h2 {
+    font-size: 23px;
+    line-height: 36px;
 
+}
+}
+@include desktop-lg{
+    h2,
+.h2 {
+    font-size: 30px;
+}
+}
 h3,
 .h3 {
     font-size: 23px;
