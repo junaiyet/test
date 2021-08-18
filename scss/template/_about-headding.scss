@@ -1,10 +1,10 @@
 .about-headding {
-    background: url(/images/banner.png) center no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     padding-top: 137px;
     padding-bottom: 153px;
     text-align: center !important;
-    // background-color: $primary-bg;
 }
 
 .breadcrumb {
@@ -23,6 +23,10 @@
 }
 
 // ////////////
+.Our-mission{
+    margin-bottom:40px !important ;
+    padding-top:20px
+}
 .list {
     li {
         margin-bottom: 15px;
