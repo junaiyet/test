@@ -288,11 +288,11 @@ h6,
     color: #1e868b; }
 
 .what-are {
-  padding: 130px 0;
+  background-image: url(/images/banner-tow-save.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 130px;
+  padding-top: 180px;
   padding-bottom: 130px;
   position: relative; }
   .what-are .primary-radious-small {
