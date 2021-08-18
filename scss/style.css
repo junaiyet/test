@@ -184,6 +184,9 @@ h6,
   .navbar form button {
     padding: 10px 24px; } }
 .about-headding {
+  background-image: url(/images/banner.svg);
+  filter: invert(39%) sepia(95%) saturate(892%) hue-rotate(160deg) brightness(99%) contrast(102%);
+  filter: red;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -275,7 +278,7 @@ h6,
     font-size: 14px; } }
 .shadow {
   padding: 30px 25px !important;
-  box-shadow: 0px 25px 65px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 25px 65px rgba(0, 0, 0, 0.05) !important;
   border-radius: 6px; }
 
 .counter-item {
@@ -505,5 +508,16 @@ h6,
     .what-are-text .secondery-radious {
       right: 0;
       top: 69%; } }
+@media (min-width: 1400px) {
+  .what-are-img .primary-radious {
+    position: absolute;
+    width: 73px;
+    height: 73px;
+    border-radius: 50%;
+    background: #ffbb33;
+    opacity: 0.5;
+    right: -30px;
+    top: -70px;
+    z-index: -1; } }
 
 /*# sourceMappingURL=style.css.map */
