@@ -134,7 +134,8 @@ h6,
     border: 1px solid #FF3131;
     transition: .4s; }
     .navigation .sing-in:hover {
-      background: #FF3131; }
+      background: #FF3131;
+      color: #fff !important; }
   .navigation .btn-check:focus + .btn,
   .navigation .btn:focus {
     outline: 0;
