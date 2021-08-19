@@ -16,7 +16,6 @@
   
         li {
             a {
-                font-family: $primary-font;
                 font-weight: 600;
                 font-size: 15px;
                 display: inline-block;
@@ -36,7 +35,7 @@
 
     form {
         button {
-            padding-top: 13px;
+            padding-top: 14px;
             padding-bottom: 16px;
             padding-left: 30px;
             padding-right: 30px;
@@ -59,7 +58,7 @@
         transition: .4s;
         &:hover{
             background: $primary-color;
-            color: #fff !important;
+            color: $white !important;
         }
     }
 

@@ -1,14 +1,9 @@
 .about-headding {
-    // background-image: url(/images/banner.png);
-    background-image: url(/images/banner.svg);
-    filter: invert(39%) sepia(95%) saturate(892%) hue-rotate(160deg) brightness(99%) contrast(102%);
-    filter: red;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: $primary-bg;
     padding-top: 137px;
-    padding-bottom: 137px;
+    padding-bottom: 30px;
     text-align: center !important;
+    margin-bottom: 0 !important;
 }
 
 .breadcrumb {
@@ -36,9 +31,20 @@
 // ////////////
 .Our-mission {
     margin-bottom: 40px !important;
-    padding-top: 20px
+    padding-top: 120px
 }
+  .mission-paragraph{
+      position: relative;
+      &::after{
+          content: "";
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          width: 430px;
+          height: 1px;background: $primary-bg;
 
+      }
+  }
 .list {
     li {
         margin-bottom: 15px;
@@ -102,7 +108,9 @@
 
 @include mobile {
 
-
+    .mission-paragraph::after {
+        width: 100%;
+    }
     .mission-img {
 
         .img {
@@ -139,11 +147,29 @@
 
 }
 
+@include tablet {
+    .mission-paragraph::after {
+        width: 100%;
+    }
+}
+@include desktop {
+    .mission-paragraph::after {
+        width: 100%;
+    }
+}
 @include desktop-lg {
+    .mission-paragraph::after {
+        width: 366px;
+    }
     .list {
         li {
             font-size: 14px;
         }
+    }
+}
+@include desktop-xl {
+    .mission-paragraph {
+        padding-right: 86px;
     }
 }
 
@@ -496,7 +522,7 @@
     }
 }
 
-@include desktop-xlg {
+@include desktop-xl {
 
     .what-are-img .primary-radious {
         position: absolute;
@@ -515,35 +541,45 @@
 .main {
     position: relative;
     transition: 5s;
+
     .img {
         width: 300px;
         height: 300px;
         border-radius: 50%;
-      img{
-          width: 100% !important;
-      }
+
+        img {
+            width: 100% !important;
+        }
     }
-    .overly{
+
+    .overly {
         position: absolute;
-    left: 0;
-    top: 0;
-    width: 300px;
-    height: 300px;
-    background: red;
-    border-radius: 50%;
-    opacity: .2;
-    transform: rotate(0);
-    transition: 3s;
+        left: 0;
+        top: 0;
+        width: 300px;
+        height: 300px;
+        background: red;
+        border-radius: 50%;
+        opacity: .2;
+        transform: rotate(0);
+        transition: 3s;
 
     }
-    .one{
+
+    .one {
         width: 20px;
         height: 20px;
         background: red;
     }
-  &:hover .overly{
-      transform: rotate(360deg);
-      transition: 30s;
-     
-  }
+
+    &:hover .overly {
+        transform: rotate(360deg);
+        transition: 30s;
+
+    }
+}
+
+
+.bottom-shape {
+    transform: rotate(180deg) translateY(10px);
 }
