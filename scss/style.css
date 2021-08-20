@@ -195,8 +195,8 @@ h6,
   .breadcrumb .breadcrumb-item a {
     color: #222222;
     font-size: 16px; }
-  .breadcrumb .breadcrumb-item .active {
-    color: #FF3131; }
+.breadcrumb .active {
+  color: #FF3131; }
 
 @media (max-width: 575.98px) {
   .about-headding {

@@ -1,6 +1,7 @@
-.fixd-manu ul li a{
+.fixd-manu ul li a {
     margin: 10px 20px !important;
 }
+
 .navigation {
     background: $primary-bg;
     position: fixed;
@@ -13,8 +14,11 @@
     }
 
     ul {
-  
+
         li {
+            // position: relative;
+
+
             a {
                 font-weight: 600;
                 font-size: 15px;
@@ -22,10 +26,32 @@
                 margin: 20px 20px;
                 color: $text-color !important;
                 transition: .4s;
-                &:hover{
+
+                &:hover {
                     color: $primary-color !important;
                 }
+
             }
+
+            // .drop-down {
+            //     position: absolute;
+            //     left: 0;
+            //     top: 0;
+            //     background: red;
+            //     opacity: 0;
+            //     visibility: hidden;
+
+            //     transform: scaleY(0);
+            //     transform-origin: top;
+            //     transition: .4s;
+            // }
+
+            // &:hover .drop-down {
+            //     opacity: 1;
+            //     visibility: visible;
+            //     transform: scaleY(1);
+            // }
+
         }
     }
 
@@ -53,10 +79,11 @@
         }
     }
 
-    .sign-up{
+    .sign-up {
         border: 1px solid $primary-color;
         transition: .4s;
-        &:hover{
+
+        &:hover {
             background: $primary-color;
             color: $white !important;
         }
@@ -76,7 +103,8 @@
 
         ul {
             height: 50vh;
-            overflow:auto ;
+            overflow: auto;
+
             li {
                 a {
                     margin-bottom: 0;
@@ -98,7 +126,8 @@
 
         ul {
             height: 50vh;
-            overflow:auto ;
+            overflow: auto;
+
             li {
                 a {
                     margin-bottom: 0;
@@ -120,7 +149,8 @@
 
         ul {
             height: 50vh;
-            overflow:auto ;
+            overflow: auto;
+
             li {
                 a {
                     margin-bottom: 0;
