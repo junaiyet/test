@@ -46,3 +46,6 @@ section{
 svg{
     fill: $primary-bg;
 }
+.bottom-shape {
+    transform: rotate(180deg) translateY(10px);
+}
