@@ -15,6 +15,7 @@
             font-size: 16px;
         }
     }
+
     .active {
         color: $primary-color;
     }
@@ -22,8 +23,7 @@
 
 @include mobile {
     .about-headding {
-        padding-top: 130px;
-        padding-bottom: 100px;
+        padding-top: 110px;
     }
 }
 
@@ -32,18 +32,22 @@
     margin-bottom: 40px !important;
     padding-top: 120px
 }
-  .mission-paragraph{
-      position: relative;
-      &::after{
-          content: "";
-          position: absolute;
-          left: 0;
-          bottom: 0;
-          width: 430px;
-          height: 1px;background: $primary-bg;
 
-      }
-  }
+.mission-paragraph {
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        width: 430px;
+        height: 1px;
+        background: $primary-bg;
+
+    }
+}
+
 .list {
     li {
         margin-bottom: 15px;
@@ -110,6 +114,7 @@
     .mission-paragraph::after {
         width: 100%;
     }
+
     .mission-img {
 
         .img {
@@ -151,21 +156,25 @@
         width: 100%;
     }
 }
+
 @include desktop {
     .mission-paragraph::after {
         width: 100%;
     }
 }
+
 @include desktop-lg {
     .mission-paragraph::after {
         width: 366px;
     }
+
     .list {
         li {
             font-size: 14px;
         }
     }
 }
+
 @include desktop-xxl {
     .mission-paragraph {
         padding-right: 86px;
@@ -173,9 +182,10 @@
 }
 
 // /////
-.counterup{
+.counterup {
     margin-top: 80px;
 }
+
 .shadow {
     padding: 30px 25px !important;
     box-shadow: 0px 25px 65px rgba(0, 0, 0, 0.05) !important;
@@ -199,6 +209,28 @@
 
     &:nth-child(3) h6 {
         color: $tertiary-color;
+    }
+}
+
+@include mobile {
+    .counter-item {
+        border-right: none;
+    }
+}
+
+@include tablet {
+    .counter-item {
+        &:nth-child(2) {
+            border-right: none;
+        }
+    }
+}
+
+@include desktop {
+    .counter-item {
+        &:nth-child(2) {
+            border-right: none;
+        }
     }
 }
 
@@ -356,6 +388,7 @@
             bottom: -25px;
         }
 
+
     }
 
     .what-are-text {
@@ -371,7 +404,9 @@
             top: 69%;
         }
 
-
+        .tertiary-radious {
+            bottom: 0px;
+        }
     }
 }
 
@@ -529,10 +564,114 @@
     .what-are-img .primary-radious {
         right: -30px;
     }
+
     .what-are-img .tertiary-radious {
         right: -50px;
-     
+
     }
 }
 
 
+// ///////////////
+.average-yearly {
+    margin-top: 80px;
+
+    .average-paragraph {
+        position: relative;
+
+        &::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 405px;
+            height: 1px;
+            background: $primary-bg;
+
+        }
+    }
+
+    .counter-item {
+        border-right: none;
+
+        h3 {
+            color: $secondery-color;
+
+        }
+
+        &:nth-child(2) h3 {
+            color: $primary-color;
+        }
+
+        &:last-child h3 {
+            color: $tertiary-color;
+        }
+
+    }
+
+    .average-yearly-item {
+        box-shadow: 0px 25px 65px rgba(0, 0, 0, 0.05);
+        border-radius: 5px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-bottom: 30px;
+    }
+
+    .svg-icon {
+        margin-bottom: 20px;
+    }
+
+}
+@include mobile {
+    .average-yearly {
+        text-align: center;
+        .average-paragraph::after {
+            display: none;
+
+        }
+
+        .svg-icon {
+            margin-bottom: 10px;
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+}
+@include tablet {
+    .average-yearly {
+        text-align: center;
+        .average-paragraph::after {
+          width: 100%;
+
+        }
+
+        .svg-icon {
+            margin-bottom: 10px;
+            width: 35px;
+            height: 35px;
+        }
+    }
+
+}
+@include desktop {
+    .average-yearly {
+        .average-paragraph::after {
+            width: 340px;
+
+        }
+
+        .svg-icon {
+            margin-bottom: 15px;
+            width: 40px;
+            height: 50px;
+        }
+
+        .average-yearly-item {
+            padding-top: 25px;
+            padding-bottom: 25px;
+
+        }
+    }
+
+}

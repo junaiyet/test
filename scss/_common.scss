@@ -43,9 +43,11 @@ section{
         margin-bottom:100px ;
     }
 }
-svg{
-    fill: $primary-bg;
-}
 .bottom-shape {
     transform: rotate(180deg) translateY(10px);
+    fill: $primary-bg;
+}
+.top-shape {
+    transform: translateY(10px);
+    fill: $primary-bg;
 }
