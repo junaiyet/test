@@ -833,16 +833,34 @@ h6,
     left: 0; }
 
   .gosaas .gosass-img .secondery-radious {
-    left: 0px;
-    bottom: 0px; }
+    left: -50px;
+    bottom: -45px; }
 
   .gosaas .gosass-text .primary-radious {
-    right: -20px; }
+    right: 70px; }
 
   .gosaas .gosass-text .secondery-radious {
     right: 30px; }
 
   .gosass-text h2 {
     padding-right: 85px; } }
+.ctl {
+  background-color: #F6F6F6;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin-bottom: 0 !important; }
+  .ctl .btn-danger {
+    color: #fff;
+    background-color: #FF3158 !important;
+    border-color: #FF3158 !important;
+    font-size: 15px !important;
+    padding-top: 17px !important;
+    padding-bottom: 16px !important;
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    transition: .4s; }
+    .ctl .btn-danger:hover {
+      background-color: #fff !important;
+      color: #222222 !important; }
 
 /*# sourceMappingURL=style.css.map */
