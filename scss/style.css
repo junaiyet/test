@@ -258,7 +258,8 @@ h6,
 .mission-img {
   background: #F6F6F6;
   position: relative;
-  z-index: 100; }
+  z-index: 100;
+  border-radius: 5px; }
   .mission-img .img {
     margin-left: -40px;
     margin-top: -40px;
@@ -390,7 +391,8 @@ h6,
 .what-are-img {
   background-color: #E0E0E0;
   position: relative;
-  z-index: 100; }
+  z-index: 100;
+  border-radius: 5px; }
   .what-are-img .img {
     margin-left: 40px;
     margin-top: -40px;
@@ -577,11 +579,15 @@ h6,
       right: 0;
       top: 69%; } }
 @media (min-width: 1400px) {
-  .what-are-img .primary-radious {
-    right: -30px; }
-
-  .what-are-img .tertiary-radious {
-    right: -50px; } }
+  .what-are-img {
+    background-color: #E0E0E0;
+    position: relative;
+    z-index: 100;
+    margin-right: 40px; }
+    .what-are-img .primary-radious {
+      right: -30px; }
+    .what-are-img .tertiary-radious {
+      right: -50px; } }
 .average-yearly {
   margin-top: 80px; }
   .average-yearly .average-paragraph {
