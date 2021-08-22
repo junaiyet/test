@@ -1089,6 +1089,29 @@
 // //////////////
 footer {
     background: $primary-bg;
+    position: relative;
+    .primary-radious {
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        background: $secondery-color;
+        opacity: 0.5;
+        left: 0%;
+        top: 30%;
+        transform: translateY(50%);
+    }
+    .secondery-radious {
+        position: absolute;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        background: $primary-color;
+        opacity: 0.5;
+        right: 0%;
+        top: 30%;
+        transform: translateY(50%);
+    }
 
     .footer-logo {
         transform: translateY(-10px);

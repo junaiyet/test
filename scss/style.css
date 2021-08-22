@@ -911,7 +911,28 @@ h6,
   .ctl .quaternary-radious {
     right: 2%; } }
 footer {
-  background: #F6F6F6; }
+  background: #F6F6F6;
+  position: relative; }
+  footer .primary-radious {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #ffbb33;
+    opacity: 0.5;
+    left: 0%;
+    top: 30%;
+    transform: translateY(50%); }
+  footer .secondery-radious {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: #FF3131;
+    opacity: 0.5;
+    right: 0%;
+    top: 30%;
+    transform: translateY(50%); }
   footer .footer-logo {
     transform: translateY(-10px); }
   footer .list-unstyled li a {
@@ -954,7 +975,7 @@ footer {
     text-align: center; } }
 @media (min-width: 576px) and (max-width: 768px) {
   footer ul {
-    padding-bottom: 30px; } }
+    padding-bottom: 40px; } }
 @media (min-width: 769px) and (max-width: 991.98px) {
   footer form button i {
     padding: 20px 15px 20px 15px !important; } }
