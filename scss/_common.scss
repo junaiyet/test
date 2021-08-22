@@ -1,12 +1,13 @@
-
 * {
     margin: 0;
     padding: 0;
 }
-// ::selection{
-//     // background-color:$secondery-color ;
-//     color: $white;
-// }
+
+::selection {
+    background-color: $primary-color;
+    color: $white;
+}
+
 ol,
 ul {
     list-style-type: none;
@@ -30,23 +31,28 @@ button {
 
     }
 }
-section{
-    margin-bottom:120px ;
+
+section {
+    margin-bottom: 120px;
 }
-@include mobile{
-    section{
-        margin-bottom:60px ;
+
+@include mobile {
+    section {
+        margin-bottom: 60px;
     }
 }
-@include tablet{
-    section{
-        margin-bottom:100px ;
+
+@include tablet {
+    section {
+        margin-bottom: 100px;
     }
 }
+
 .bottom-shape {
     transform: rotate(180deg) translateY(10px);
     fill: $primary-bg;
 }
+
 .top-shape {
     transform: translateY(0px);
     fill: $primary-bg;

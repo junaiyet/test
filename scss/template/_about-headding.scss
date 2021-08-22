@@ -44,7 +44,6 @@
         width: 430px;
         height: 1px;
         background: $primary-bg;
-
     }
 }
 
@@ -69,7 +68,6 @@
         margin-left: -40px;
         margin-top: -40px;
         padding-bottom: 40px;
-
     }
 
     .primary-radious {
@@ -108,20 +106,16 @@
     }
 }
 
-
 @include mobile {
-
     .mission-paragraph::after {
         width: 100%;
     }
 
     .mission-img {
-
         .img {
             margin-left: -10px;
             margin-top: -10px;
             padding-bottom: 10px;
-
         }
 
         .primary-radious {
@@ -139,16 +133,12 @@
         }
 
         .tertiary-radious {
-
             width: 50px;
             height: 50px;
-
             left: -10px;
             bottom: -10px;
         }
-
     }
-
 }
 
 @include tablet {
@@ -279,7 +269,6 @@
         margin-left: 40px;
         margin-top: -40px;
         padding-bottom: 40px;
-
     }
 
     .primary-radious {
@@ -316,7 +305,6 @@
         right: -80px;
         bottom: 10px;
     }
-
 }
 
 .what-are-text {
@@ -358,7 +346,6 @@
 }
 
 @include mobile {
-
     .what-are-img {
         position: relative;
         z-index: 100;
@@ -367,7 +354,6 @@
             margin-left: 10px;
             margin-top: -10px;
             padding-bottom: 10px;
-
         }
 
         .primary-radious {
@@ -386,8 +372,6 @@
             right: -9px;
             bottom: -25px;
         }
-
-
     }
 
     .what-are-text {
@@ -410,7 +394,6 @@
 }
 
 @include tablet {
-
     .what-are-img {
         position: relative;
         z-index: 100;
@@ -437,7 +420,6 @@
             right: -9px;
             bottom: -25px;
         }
-
     }
 
     .what-are-text {
@@ -461,7 +443,6 @@
 }
 
 @include desktop {
-
     .what-are-img {
         position: relative;
         z-index: 100;
@@ -488,7 +469,6 @@
             right: -9px;
             bottom: -25px;
         }
-
     }
 
     .what-are-text {
@@ -512,7 +492,6 @@
 }
 
 @include desktop-lg {
-
     .what-are-img {
         position: relative;
         z-index: 100;
@@ -539,7 +518,6 @@
             right: -9px;
             bottom: -25px;
         }
-
     }
 
     .what-are-text {
@@ -571,7 +549,6 @@
 
         .tertiary-radious {
             right: -50px;
-
         }
     }
 
@@ -593,7 +570,6 @@
             width: 405px;
             height: 1px;
             background: $primary-bg;
-
         }
     }
 
@@ -602,7 +578,6 @@
 
         .h3 {
             color: $secondery-color;
-
         }
 
         &:nth-child(2) .h3 {
@@ -635,7 +610,6 @@
 
         .average-paragraph::after {
             display: none;
-
         }
 
         .svg-icon {
@@ -653,7 +627,6 @@
 
         .average-paragraph::after {
             width: 100%;
-
         }
 
         .svg-icon {
@@ -669,7 +642,6 @@
     .average-yearly {
         .average-paragraph::after {
             width: 340px;
-
         }
 
         .svg-icon {
@@ -681,7 +653,6 @@
         .average-yearly-item {
             padding-top: 25px;
             padding-bottom: 25px;
-
         }
     }
 
@@ -692,11 +663,6 @@
         .average-paragraph {
             position: relative;
             padding-right: 51px;
-            //    &::after {
-            //         width: 465px;
-
-            //     }
-
         }
     }
 }
@@ -723,7 +689,6 @@
             opacity: 0.5;
             left: -90px;
             top: -30px;
-
         }
 
         .secondery-radious {
@@ -735,7 +700,6 @@
             opacity: 0.5;
             left: -115px;
             bottom: 0px;
-
         }
 
         .card-img-overly {
@@ -815,7 +779,6 @@
             opacity: 0.5;
             right: -40px;
             top: -30px;
-
         }
 
         .secondery-radious {
@@ -827,7 +790,6 @@
             opacity: 0.5;
             right: -55px;
             bottom: 0px;
-
         }
 
         h2 {
@@ -843,8 +805,6 @@
                 width: 450px;
                 height: 1px;
                 background-color: #E0E0E0;
-                // background: $primary-bg;
-
             }
 
         }
@@ -870,7 +830,6 @@
 
     .gosaas .gosass-img .secondery-radious {
         left: 0;
-
     }
 
     .gosaas .gosass-text .primary-radious {
@@ -899,7 +858,6 @@
 
     .gosaas .gosass-img .secondery-radious {
         left: 0;
-
     }
 
     .gosaas .gosass-text .primary-radious {
@@ -915,9 +873,7 @@
     }
 
     .gosaas .gosass-text h2::after {
-
         width: 100%;
-
     }
 }
 
@@ -1090,6 +1046,7 @@
 footer {
     background: $primary-bg;
     position: relative;
+
     .primary-radious {
         position: absolute;
         width: 52px;
@@ -1101,6 +1058,7 @@ footer {
         top: 30%;
         transform: translateY(50%);
     }
+
     .secondery-radious {
         position: absolute;
         width: 44px;
@@ -1140,6 +1098,7 @@ footer {
             width: 100%;
             border: none;
             font-weight: 600;
+
             &:focus-visible {
                 outline: none !important;
                 border: 1px solid $primary-color;
@@ -1162,13 +1121,16 @@ footer {
             }
         }
     }
-    p{
-        color:  $text-color;;
-        a{
+
+    p {
+        color: $text-color;
+        ;
+
+        a {
             display: inline-block;
-    
-      
-            &:hover{
+
+
+            &:hover {
                 color: $primary-color;
             }
         }
@@ -1176,44 +1138,41 @@ footer {
 }
 
 @include mobile {
- 
+
     footer {
-        .logo-paragraph{
+        .logo-paragraph {
             margin-bottom: 40px;
         }
+
         .primary-radious {
             left: 30%;
         }
-        ul{
+
+        ul {
             padding-bottom: 40px;
         }
-     }
+    }
 }
 
 @include tablet {
     footer {
-       ul{
-           padding-bottom: 40px;
-       }
+        ul {
+            padding-bottom: 40px;
+        }
     }
 
 }
 
 @include desktop {
-    footer form button i{
-            padding: 20px 15px 20px 15px !important;
+    footer form button i {
+        padding: 20px 15px 20px 15px !important;
     }
-    footer {
-    }
-
 }
 
 @include desktop-xxl {
     footer {
-           .logo-paragraph{
-                margin-right: 70px;
-            }
-        
-
+        .logo-paragraph {
+            margin-right: 70px;
+        }
     }
 }

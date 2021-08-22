@@ -23,7 +23,6 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
-
 }
 
 h1,
@@ -31,69 +30,70 @@ h1,
     font-size: 48px;
     font-weight: 700;
     line-height: 60px;
-
 }
-
-
-
 
 h2,
 .h2 {
     font-size: 36px;
     line-height: 46px;
+}
 
-}
-@include mobile{
-    h2,
-.h2 {
-    font-size: 22px;
-    line-height: 36px;
+@include mobile {
 
-}
-}
-@include tablet{
     h2,
-.h2 {
-    font-size: 26px;
-    line-height: 36px;
+    .h2 {
+        font-size: 22px;
+        line-height: 36px;
+    }
+}
 
-}
-}
-@include desktop{
-    h2,
-.h2 {
-    font-size: 28px;
-    line-height: 36px;
+@include tablet {
 
-}
-}
-@include desktop-lg{
     h2,
-.h2 {
-    font-size: 30px;
+    .h2 {
+        font-size: 26px;
+        line-height: 36px;
+
+    }
 }
+
+@include desktop {
+
+    h2,
+    .h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
 }
+
+@include desktop-lg {
+
+    h2,
+    .h2 {
+        font-size: 30px;
+    }
+}
+
 h3,
 .h3 {
     font-size: 32px;
     line-height: 36px;
 }
 
-
 h4,
 .h4 {
     font-size: 20px;
     font-weight: 700;
 }
+
 h5,
 .h5 {
     font-size: 18px;
     font-weight: 700;
-
 }
+
 h6,
 .h6 {
     font-size: 16px;
     font-weight: 600;
-
 }

@@ -14,11 +14,7 @@
     }
 
     ul {
-
         li {
-            // position: relative;
-
-
             a {
                 font-weight: 600;
                 font-size: 15px;
@@ -30,28 +26,7 @@
                 &:hover {
                     color: $primary-color !important;
                 }
-
             }
-
-            // .drop-down {
-            //     position: absolute;
-            //     left: 0;
-            //     top: 0;
-            //     background: red;
-            //     opacity: 0;
-            //     visibility: hidden;
-
-            //     transform: scaleY(0);
-            //     transform-origin: top;
-            //     transition: .4s;
-            // }
-
-            // &:hover .drop-down {
-            //     opacity: 1;
-            //     visibility: visible;
-            //     transform: scaleY(1);
-            // }
-
         }
     }
 
@@ -102,9 +77,6 @@
         padding: 20px;
 
         ul {
-            // height: 50vh;
-            // overflow: auto;
-
             li {
                 a {
                     margin-bottom: 0;
@@ -113,6 +85,7 @@
             }
         }
     }
+
     .navbar-toggler {
         padding: .60rem .75rem;
         border: 1px solid $primary-bg;
@@ -120,8 +93,8 @@
         background: #fff;
         border-radius: 0 !important;
     }
+
     form {
-        // margin-top: -40px;
         justify-content: center;
         align-items: center;
     }
@@ -133,9 +106,6 @@
         padding: 20px;
 
         ul {
-            // height: 50vh;
-            // overflow: auto;
-
             li {
                 a {
                     margin-bottom: 0;
@@ -144,6 +114,7 @@
             }
         }
     }
+
     .navbar-toggler {
         padding: .60rem .75rem;
         border: 1px solid $primary-bg;
@@ -165,9 +136,6 @@
         padding: 20px;
 
         ul {
-            // height: 50vh;
-            // overflow: auto;
-
             li {
                 a {
                     margin-bottom: 0;
@@ -176,17 +144,17 @@
             }
         }
     }
+
     .navbar-toggler {
         padding: .60rem .75rem;
         border: 1px solid $primary-bg;
         box-shadow: none !important;
         background: #fff;
         border-radius: 0 !important;
-         font-size: 26px;
+        font-size: 26px;
     }
-    form {
-        // margin-top: -40px;
 
+    form {
         justify-content: center;
         align-items: center;
     }
@@ -196,6 +164,7 @@
     .navbar form button {
         padding: 10px 24px;
     }
+
     .navigation ul li a {
         margin: 20px 10px;
     }
