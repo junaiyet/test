@@ -1176,6 +1176,9 @@ footer {
 }
 
 @include mobile {
+    footer .primary-radious {
+        left: 30%;
+    }
     footer {
         ul{
             padding-bottom: 40px;
