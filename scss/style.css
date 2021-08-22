@@ -108,7 +108,7 @@ h5,
 h6,
 .h6 {
   font-size: 16px;
-  font-weight: 700; }
+  font-weight: 600; }
 
 .fixd-manu ul li a {
   margin: 10px 20px !important; }
@@ -726,7 +726,7 @@ h6,
       border-radius: 50%;
       background: #FF3131;
       opacity: 0.5;
-      right: -90px;
+      right: -40px;
       top: -30px; }
     .gosaas .gosass-text .secondery-radious {
       position: absolute;
@@ -735,7 +735,7 @@ h6,
       border-radius: 50%;
       background: #ffbb33;
       opacity: 0.5;
-      right: -115px;
+      right: -55px;
       bottom: 0px; }
     .gosaas .gosass-text h2 {
       position: relative;
@@ -862,5 +862,107 @@ h6,
     .ctl .btn-danger:hover {
       background-color: #fff !important;
       color: #222222 !important; }
+
+.ctl {
+  position: relative; }
+  .ctl .primary-radious {
+    position: absolute;
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    background: #FF3131;
+    opacity: 0.5;
+    left: 0px;
+    top: 0px; }
+  .ctl .secondery-radious {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+    background: #1e868b;
+    opacity: 0.5;
+    left: 20%;
+    top: 50%;
+    transform: translateY(50%); }
+  .ctl .tertiary-radious {
+    position: absolute;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background: #1e868b;
+    opacity: 0.5;
+    right: 0px;
+    top: 0px; }
+  .ctl .quaternary-radious {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background: #ffbb33;
+    opacity: 0.5;
+    right: 20%;
+    top: 50%;
+    transform: translateY(50%); }
+
+@media (max-width: 575.98px) {
+  .ctl .secondery-radious {
+    left: 2%; }
+
+  .ctl .quaternary-radious {
+    right: 2%; } }
+footer {
+  background: #F6F6F6; }
+  footer .footer-logo {
+    transform: translateY(-10px); }
+  footer .list-unstyled li a {
+    display: block;
+    color: #222222;
+    margin-bottom: 10px; }
+    footer .list-unstyled li a:hover {
+      color: #FF3131;
+      margin-left: 2px; }
+  footer form input {
+    background-color: #EAEAEA;
+    padding: 15px 77px 15px 20px;
+    border-radius: 5px;
+    border: none; }
+    footer form input:focus-visible {
+      border: 1px solid #FF3131 !important; }
+  footer form button {
+    border: none !important; }
+    footer form button i {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      padding: 20px 25px 20px 25px !important;
+      border: none !important;
+      background-color: #FF3131 !important;
+      color: #fff;
+      font-size: 14px;
+      margin-left: -5px; }
+  footer p {
+    color: #222222; }
+    footer p a {
+      display: inline-block;
+      color: #222222; }
+      footer p a:hover {
+        color: #FF3131; }
+
+@media (max-width: 575.98px) {
+  footer {
+    text-align: center; }
+    footer form input {
+      padding: 15px 20px 15px 20px; } }
+@media (min-width: 576px) and (max-width: 768px) {
+  footer {
+    text-align: center; } }
+@media (min-width: 769px) and (max-width: 991.98px) {
+  footer form button i {
+    padding: 20px 15px 20px 15px !important; }
+
+  footer form input {
+    padding: 15px 10px 15px 15px; } }
+@media (min-width: 1400px) {
+  footer .footer-logo p {
+    margin-right: 70px; } }
 
 /*# sourceMappingURL=style.css.map */

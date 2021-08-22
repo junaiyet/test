@@ -725,6 +725,7 @@
             top: -30px;
 
         }
+
         .secondery-radious {
             position: absolute;
             width: 56px;
@@ -804,6 +805,7 @@
 
     .gosass-text {
         position: relative;
+
         .primary-radious {
             position: absolute;
             width: 56px;
@@ -811,10 +813,11 @@
             border-radius: 50%;
             background: $primary-color;
             opacity: 0.5;
-            right: -90px;
+            right: -40px;
             top: -30px;
 
         }
+
         .secondery-radious {
             position: absolute;
             width: 40px;
@@ -822,10 +825,11 @@
             border-radius: 50%;
             background: $secondery-color;
             opacity: 0.5;
-            right: -115px;
+            right: -55px;
             bottom: 0px;
 
         }
+
         h2 {
             position: relative;
             padding-bottom: 20px;
@@ -863,16 +867,20 @@
     .gosaas .gosass-img .primary-radious {
         left: 0;
     }
+
     .gosaas .gosass-img .secondery-radious {
         left: 0;
-  
+
     }
+
     .gosaas .gosass-text .primary-radious {
         right: 0;
     }
+
     .gosaas .gosass-text .secondery-radious {
         right: 0;
     }
+
     .gosass-text {
         text-align: center;
 
@@ -888,16 +896,20 @@
     .gosaas .gosass-img .primary-radious {
         left: 0;
     }
+
     .gosaas .gosass-img .secondery-radious {
         left: 0;
-  
+
     }
+
     .gosaas .gosass-text .primary-radious {
         right: 0;
     }
+
     .gosaas .gosass-text .secondery-radious {
         right: 0;
     }
+
     .gosass-text {
         text-align: center;
     }
@@ -913,16 +925,20 @@
     .gosaas .gosass-img .primary-radious {
         left: 0;
     }
+
     .gosaas .gosass-img .secondery-radious {
         left: -30px;
         bottom: -25px;
     }
+
     .gosaas .gosass-text .primary-radious {
         right: 0;
     }
+
     .gosaas .gosass-text .secondery-radious {
         right: 0;
     }
+
     .gosass-text h2 {
         font-size: 22px;
         padding-bottom: 10px;
@@ -938,16 +954,20 @@
     .gosaas .gosass-img .primary-radious {
         left: 0;
     }
+
     .gosaas .gosass-img .secondery-radious {
         left: 0px;
         bottom: 0px;
     }
+
     .gosaas .gosass-text .primary-radious {
         right: -20px;
     }
+
     .gosaas .gosass-text .secondery-radious {
         right: 30px;
     }
+
     .gosaas .gosass-text h2::after {
         width: 380px;
     }
@@ -957,28 +977,34 @@
     .gosaas .gosass-img .primary-radious {
         left: 0;
     }
+
     .gosaas .gosass-img .secondery-radious {
         left: -50px;
         bottom: -45px;
     }
+
     .gosaas .gosass-text .primary-radious {
         right: 70px;
     }
+
     .gosaas .gosass-text .secondery-radious {
         right: 30px;
     }
+
     .gosass-text {
         h2 {
             padding-right: 85px;
         }
     }
 }
+
 // ///////////////
-.ctl{
+.ctl {
     background-color: $primary-bg;
     padding-top: 60px;
     padding-bottom: 60px;
     margin-bottom: 0 !important;
+
     .btn-danger {
         color: #fff;
         background-color: $radious-color !important;
@@ -989,11 +1015,186 @@
         padding-left: 30px !important;
         padding-right: 30px !important;
         transition: .4s;
-        &:hover{
-          background-color: $white !important;
-          color: $text-color !important;
+
+        &:hover {
+            background-color: $white !important;
+            color: $text-color !important;
         }
-    
+
     }
-    
+
+}
+
+// ////////////////
+.ctl {
+    position: relative;
+
+    .primary-radious {
+        position: absolute;
+        width: 31px;
+        height: 31px;
+        border-radius: 50%;
+        background: $primary-color;
+        opacity: 0.5;
+        left: 0px;
+        top: 0px;
+    }
+
+    .secondery-radious {
+        position: absolute;
+        width: 51px;
+        height: 51px;
+        border-radius: 50%;
+        background: $tertiary-color;
+        opacity: 0.5;
+        left: 20%;
+        top: 50%;
+        transform: translateY(50%);
+    }
+
+    .tertiary-radious {
+        position: absolute;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+        background: $tertiary-color;
+        opacity: 0.5;
+        right: 0px;
+        top: 0px;
+    }
+
+    .quaternary-radious {
+        position: absolute;
+        width: 52px;
+        height: 52px;
+        border-radius: 50%;
+        background: $secondery-color;
+        opacity: 0.5;
+        right: 20%;
+        top: 50%;
+        transform: translateY(50%);
+    }
+}
+
+@include mobile {
+    .ctl .secondery-radious {
+        left: 2%;
+    }
+
+    .ctl .quaternary-radious {
+        right: 2%;
+    }
+}
+
+// //////////////
+footer {
+    background: $primary-bg;
+
+    .footer-logo {
+        transform: translateY(-10px);
+    }
+
+    .list-unstyled {
+        li {
+            a {
+                display: block;
+                color: $text-color;
+                margin-bottom: 10px;
+
+                &:hover {
+                    color: $primary-color;
+                    margin-left: 2px;
+                }
+            }
+        }
+    }
+
+    form {
+        input {
+            background-color: #EAEAEA;
+            padding: 15px 77px 15px 20px;
+            border-radius: 5px;
+            border: none;
+
+            &:focus-visible {
+                border: 1px solid $primary-color !important;
+            }
+
+        }
+
+        button {
+            border: none !important;
+
+            i {
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+                padding: 20px 25px 20px 25px !important;
+                border: none !important;
+                background-color: $primary-color !important;
+                color: $white;
+                font-size: 14px;
+                margin-left: -5px
+            }
+        }
+    }
+    p{
+        color:  $text-color;;
+        a{
+            display: inline-block;
+            color:  $text-color;
+            &:hover{
+                color: $primary-color;
+            }
+        }
+    }
+}
+
+@include mobile {
+    footer {
+        text-align: center;
+
+        form {
+            input {
+
+                padding: 15px 20px 15px 20px;
+
+            }
+        }
+  
+    }
+}
+
+@include tablet {
+    footer {
+        text-align: center;
+    }
+
+}
+
+@include desktop {
+    footer form button i{
+            padding: 20px 15px 20px 15px !important;
+    }
+    footer {
+        form {
+            input {
+                padding: 15px 10px 15px 15px;
+
+                
+            }
+         
+        }
+    }
+
+}
+
+@include desktop-xxl {
+    footer {
+        .footer-logo {
+            p {
+                margin-right: 70px;
+            }
+        }
+
+    }
 }
