@@ -946,9 +946,7 @@ footer {
     color: #222222; }
     footer p a {
       display: inline-block;
-      color: #222222; }
-      footer p a:hover {
-        color: #FF3131; }
+      color: #FF3131; }
 
 @media (max-width: 575.98px) {
   footer {

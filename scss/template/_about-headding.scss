@@ -1143,10 +1143,7 @@ footer {
         color:  $text-color;;
         a{
             display: inline-block;
-            color:  $text-color;
-            &:hover{
-                color: $primary-color;
-            }
+            color: $primary-color;
         }
     }
 }
