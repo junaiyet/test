@@ -1178,11 +1178,11 @@ footer {
 @include mobile {
  
     footer {
-        .primary-radious {
-            left: 30%;
-        }
         .logo-paragraph{
             margin-bottom: 40px;
+        }
+        .primary-radious {
+            left: 30%;
         }
         ul{
             padding-bottom: 40px;

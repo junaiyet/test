@@ -971,9 +971,10 @@ footer {
         color: #FF3131; }
 
 @media (max-width: 575.98px) {
+  footer .logo-paragraph {
+    margin-bottom: 40px; }
   footer .primary-radious {
     left: 30%; }
-
   footer ul {
     padding-bottom: 40px; } }
 @media (min-width: 576px) and (max-width: 768px) {
