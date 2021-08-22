@@ -1161,7 +1161,9 @@ footer {
 
 @include tablet {
     footer {
-        text-align: center;
+       ul{
+           padding-bottom: 40px;
+       }
     }
 
 }
@@ -1177,11 +1179,10 @@ footer {
 
 @include desktop-xxl {
     footer {
-        .footer-logo {
-            p {
+           .logo-paragraph{
                 margin-right: 70px;
             }
-        }
+        
 
     }
 }

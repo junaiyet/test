@@ -953,13 +953,13 @@ footer {
   footer {
     text-align: center; } }
 @media (min-width: 576px) and (max-width: 768px) {
-  footer {
-    text-align: center; } }
+  footer ul {
+    padding-bottom: 30px; } }
 @media (min-width: 769px) and (max-width: 991.98px) {
   footer form button i {
     padding: 20px 15px 20px 15px !important; } }
 @media (min-width: 1400px) {
-  footer .footer-logo p {
+  footer .logo-paragraph {
     margin-right: 70px; } }
 
 /*# sourceMappingURL=style.css.map */
