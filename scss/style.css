@@ -74,7 +74,7 @@ h2,
 @media (max-width: 575.98px) {
   h2,
   .h2 {
-    font-size: 23px;
+    font-size: 22px;
     line-height: 36px; } }
 @media (min-width: 576px) and (max-width: 768px) {
   h2,
@@ -945,8 +945,9 @@ footer {
   footer p {
     color: #222222; }
     footer p a {
-      display: inline-block;
-      color: #FF3131; }
+      display: inline-block; }
+      footer p a:hover {
+        color: #FF3131; }
 
 @media (max-width: 575.98px) {
   footer {
