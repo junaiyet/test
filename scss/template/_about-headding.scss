@@ -1177,9 +1177,10 @@ footer {
 
 @include mobile {
     footer {
-        text-align: center;
-
-    }
+        ul{
+            padding-bottom: 40px;
+        }
+     }
 }
 
 @include tablet {
